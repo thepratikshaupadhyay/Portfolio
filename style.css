@@ -6,11 +6,16 @@ body{
     background-attachment: fixed;
     background-color: #4b0057; 
 }
+
+
+
+
+
 .header{
     background-color: #2b0030;
     color: white;
     display: grid;
-    grid-template-columns: 60px auto 300px;
+    grid-template-columns: 70px auto 300px;
     position:fixed;
     top: 0;
     left: 0;
@@ -21,6 +26,12 @@ body{
     width: 50px;
     height: 50px;
     margin: 5px;
+}
+.header-title{
+    font-family: 'Jim Nightshade', Arial, sans-serif;
+    font-size: 40px;
+    margin: 5px;
+    color: #ec8bec;
 }
 .nav-links{
     display: grid;
@@ -47,3 +58,28 @@ body{
     color: #ff00ff;
     font-size: 25px;
 }
+
+<!-- Intro Text-->
+.introTextArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh; 
+}
+.introText1{
+    font-family: 'Henny Penny', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff00ff;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.introText2{
+    font-family: 'Henny Penny', Arial, sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff00ff;
+    margin-top: 0px;
+    padding-top: 0px;
