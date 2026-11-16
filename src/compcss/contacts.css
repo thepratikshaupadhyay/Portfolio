@@ -1,0 +1,22 @@
+/*Contact Section*/
+.contactsection{
+    margin: 50px;
+    margin-top: 200px;
+}
+.contactheading{
+    font-family: 'Asimovian', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #6c50de;
+
+}
+
+.contactinfo{
+    margin-top: 50px;
+}
+
+.contacttext{
+    font-family: 'Geist Pixel', Arial, sans-serif;
+    font-size: 25px;
+    color: #6c50de;
+}
