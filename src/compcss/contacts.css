@@ -20,3 +20,45 @@
     font-size: 25px;
     color: #6c50de;
 }
+
+
+
+
+input::placeholder,
+textarea::placeholder {
+  color: #d00b7b;
+  opacity: 0.4; 
+}
+
+.contactform{
+    margin-top: 50px;
+
+}
+.contactinstruction{
+    font-family: 'Geist Pixel', Arial, sans-serif;
+    font-size: 25px;
+    color: #6c50de;
+    margin-bottom: 20px;
+}
+.contactinput{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid  #ff00ff;
+    background-color: #2b0030;
+    color: #ff00ff;
+    font-family: 'Geist Pixel', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.sendbutton{
+    background-color: #2b0030;
+    color: #ff00ff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Geist Pixel', Arial, sans-serif;
+    font-size: 20px;
+}
